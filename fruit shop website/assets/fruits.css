@@ -1,0 +1,48 @@
+body { 
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fbf7f5;
+  color: #1f1f1f;
+}
+.button1, .button2 {
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 20px;
+}
+.button1 { background: #ff6b45; color: #fff; }
+.button2 { background: #111; color: #fff; }
+.button1:hover, .button2:hover {
+ background-color: #1f1f1f;
+}
+.fresh { padding: 40px; }
+.div, .div5, .div6{
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #f0e8e6;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: #111111;
+}
+.div:hover, .div5:hover, .div6:hover {
+
+  background: #fff9f496;
+  border: 1px solid #ffdec1fc;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px 0;
+
+}
+
+.diiv {
+  float: left;
+  width: 70%;
+  max-width: 500px;
+}
+.div img, .div4 img, .div5 img {
+  float: right;
+  width: 160px;
+}
